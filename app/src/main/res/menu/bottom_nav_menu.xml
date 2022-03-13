@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_quran"
+        android:icon="@drawable/qurantabicon"
+        android:title="@string/title_quran" />
+    <item
+        android:id="@+id/navigation_zekr"
+        android:icon="@drawable/azkariconbo"
+        android:title="@string/title_zekr" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/hometabicon"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_sebha"
+        android:icon="@drawable/rosartabicor"
+        android:title="@string/title_sebha" />
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/more"
+        android:title="@string/title_more" />
+
+</menu>

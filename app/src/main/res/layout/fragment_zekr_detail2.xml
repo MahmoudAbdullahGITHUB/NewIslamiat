@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".ui.ZekrDetailFragment2">
+
+
+    <LinearLayout
+        android:id="@+id/zekr_detail_top_ll"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.8"
+        android:background="@drawable/btncolors"
+        android:gravity="center_horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:id="@+id/zekr_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="أسماء الله الحسني"
+            style="@style/AssmaaAllahAlhosna" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/zekr_detail_top_ll"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الرَّحْمن" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الرَّحِيم" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="المَلِك"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْقُدُّوس" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="السَّلَام" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="المُؤْمِن"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْمُهَيْمِن" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْعَزِيز" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْجَبَّار"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْمُتَكَبِّر" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْخَالِق" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْبَارِئ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْمُصَوِّر" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="اَلْغَفَّار" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْقَهَّار"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْوَهَّاب" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الرَّزَّاق" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْفَتَّاح"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْعَلِيم" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْقَابِضُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْبَاسِطُ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الخافض" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الرَّافِعُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="المعز"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="المذل" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="السَّمِيعُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْبَصِير"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْحَكَم" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="العدل" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="اللَّطِيفُ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْخَبِيرُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْحَلِيمُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْعَظِيمُ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْغَفُورُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الشَّكُورُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْعَلِيُّ"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْكَبِيرُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْحَفِيظُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="المُقِيت"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْحَسِيبُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الجليل" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْكَرِيمُ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الرَّقِيبُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْمُجِيبُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْوَاسِعُ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="اَلْحَكِيمُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْوَدُودُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْمَجِيدُ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الباعث" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الشَّهِيدُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْحَقُّ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْوَكِيلُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْقَوِيّ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْمَتِينُ"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْوَلِيُّ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْحَمِيدُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْـمُحْصِي"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْـمُحْصِي" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="المبدئ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="المعيد"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="المُحيي" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="المميت" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْحَيُّ"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْقَيُّومُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الواجد" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الماجد"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْوَاحِدُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الصَّمَدُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْقَادِرُ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْمُقْتَدِرُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْمُقَدِّمُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْمُؤَخِّرُ"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْأَوَّلُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْآخِرُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الظَّاهِرُ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْبَاطِنُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الوالي" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْمُتَعَالِ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْبِرُّ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="التَّوَّابُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْمُنْتَقِمُ"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="العَفُو" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الرَّؤُوفُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="مَالِكُ الْمُلْكِ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="ذُو الْجَلَالِ والْإكْرَامِ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="المقسط" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْمُتَعَالِ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْجَامِعُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْغَنِيُّ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="المغني"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْمُعْطِي" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="المانع" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الضارِ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="النُّورُِ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْهَادِي" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْبَدِيعُ"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الباقي" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الْوَارِثُ" />
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الرشيد"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/AssmaaAllahAlhosna"
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/group10673"
+                    android:gravity="center"
+                    android:text="الباقي" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

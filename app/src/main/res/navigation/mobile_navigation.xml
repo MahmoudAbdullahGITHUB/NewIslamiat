@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.perfect.islamyat.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_sebha"
+        android:name="com.perfect.islamyat.ui.dashboard.SebhaFragment"
+        android:label="@string/title_sebha"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_zekr"
+        android:name="com.perfect.islamyat.ui.notifications.NotificationsFragment"
+        android:label="@string/title_zekr"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_quran"
+        android:name="com.perfect.islamyat.ui.quran.QuranFragment"
+        android:label="@string/title_quran"
+        tools:layout="@layout/quran_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.perfect.islamyat.ui.more.MoreFragment"
+        android:label="@string/title_more"
+        tools:layout="@layout/more_fragment" />
+
+</navigation>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "280397116074",
+    "firebase_url": "https://tanbeeh.firebaseio.com",
+    "project_id": "tanbeeh",
+    "storage_bucket": "tanbeeh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280397116074:android:f4618e561db874c93c56d3",
+        "android_client_info": {
+          "package_name": "com.tanbeeh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280397116074-7do4l3teoaci0n28vltvfn37vg9mv3rj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tanbeeh",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "280397116074-j6ccj4mkp7ueg5n5k9ec82daus9kgk8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAib9wlK6KQq_fdedM5GsSGTSbTjqSXI5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280397116074-j6ccj4mkp7ueg5n5k9ec82daus9kgk8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

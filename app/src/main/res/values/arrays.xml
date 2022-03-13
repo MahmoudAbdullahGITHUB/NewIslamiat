@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intervals">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="esteghfar_intervals">
+        <item>١٥ دقيقة</item>
+        <item>٣٠ دقيقة</item>
+        <item>٤٥ دقيقة</item>
+        <item>ساعة</item>
+        <item>ساعتان</item>
+        <item>٣ ساعات</item>
+        <item>٤ ساعات</item>
+        <item>٦ ساعات</item>
+    </string-array>
+    <string-array name="Iqama_intervals">
+        <item>١٠ دقائق</item>
+        <item>١٥ دقائق</item>
+        <item>٢٠ دقيقة</item>
+        <item>٢٥ دقيقة</item>
+    </string-array>
+</resources>

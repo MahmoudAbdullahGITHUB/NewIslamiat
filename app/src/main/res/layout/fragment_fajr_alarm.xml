@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/morebg"
+    android:clickable="true"
+    tools:context=".FajrAlarmFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.8"
+        android:gravity="center_horizontal"
+        android:id="@+id/fajr_alarm_top_ll"
+        android:background="@drawable/btntransparent"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:text="منبه الفجر"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:id="@+id/detail_title"/>
+    </LinearLayout>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/fajr_alarm_switch"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/fajr_alarm_top_ll"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/fagr"
+        android:id="@+id/fajr_img"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/fajr_alarm_switch"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/fajr_before_after_alarm_switch"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/fajr_img"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/btnlightblue"
+        android:alpha="0.7"
+        android:textSize="20sp"
+        android:id="@+id/remindertext"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/fajr_before_after_alarm_switch"
+        android:text="التذكير بعد الأذان"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+
+        android:layout_marginStart="50dp"
+        android:id="@+id/selected_interval"
+        android:layout_marginEnd="50dp"
+        android:layout_below="@id/remindertext"
+        android:padding="10dp"
+        android:entries="@array/intervals"
+        android:background="@drawable/btnpurple"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/btnlightblue"
+        android:alpha="0.7"
+        android:textSize="20sp"
+        android:id="@+id/remindersound"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/selected_interval"
+        android:text="صوت التنبيه"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:id="@+id/freetext"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/remindersound"
+        android:text="لن يتم إيقاف التنبيه إلا بعد الدخول للبرنامج"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/btnpurple"
+        android:textSize="20sp"
+        android:id="@+id/save_fajr_alarm"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/freetext"
+        android:text="حفظ"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:padding="20dp"
+        />
+</RelativeLayout>

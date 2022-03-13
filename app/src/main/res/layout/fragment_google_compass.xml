@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/morebg"
+    tools:context=".ui.GoogleCompassFragment">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.8"
+        android:gravity="center_horizontal"
+        android:id="@+id/qibla_top_ll"
+        android:background="@drawable/btntransparent"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:text="قبلة جوجل"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/compass_wv"
+        android:layout_below="@id/qibla_top_ll"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/black"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
